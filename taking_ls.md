@@ -1,4 +1,4 @@
-Extracting the zip file "The Flag.zip", a folder "The Flag" appears. Inside the folder, another folder is found with the same name, which contains a pdf file "The Flag.pdf" that requires a password. Running the command
+Extracting the zip file "The Flag.zip", a folder "The Flag" appears. Inside the folder, another folder can be found with the same name, which contains a pdf file "The Flag.pdf" that requires a password. Running the command
 ```bash
 ls -la
 ```
