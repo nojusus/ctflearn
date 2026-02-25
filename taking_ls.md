@@ -10,4 +10,4 @@ and running the first command again, a hidden txt file ThePassword.txt can be fo
 ```bash
 cat ThePassword.txt
 ```
-that reveals the password "Im The Flag". Entering this password for the "The Flag.pdf" file, the flag is revealed to be "ABCTF{T3Rmin4l_is_C00l}".
+that reveals the password "Im The Flag". Entering this password for the "The Flag.pdf" file, the flag is revealed.
