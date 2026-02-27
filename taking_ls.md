@@ -1,13 +1,13 @@
-Extracting the zip file "The Flag.zip", a folder "The Flag" appears. Inside the folder, another folder can be found with the same name, which contains a pdf file "The Flag.pdf" that requires a password. Running the command
+Once the zip file is extracted, a file "The Flag.pdf" can be found that that requires a password. Running the command
 ```bash
 ls -la
 ```
-inside the directory of the folder where the pdf file resides in, a hidden directory .ThePassword can be found. The directory can be entered with
+shows a hidden directory .ThePassword. The directory can be accessed with
 ```bash
 cd .ThePassword
 ```
-and running the first command again, a hidden txt file ThePassword.txt can be found that can be read with
+Running the first command again, a hidden file "ThePassword.txt" can be found that can be read with
 ```bash
 cat ThePassword.txt
 ```
-that reveals the password "Im The Flag". Entering this password for the "The Flag.pdf" file, the flag is revealed.
+that reveals a password that is used for the pdf file, which reveals the flag.
