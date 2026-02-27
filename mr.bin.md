@@ -10,11 +10,11 @@ that provides a clue on how to obtain the flag. Running the command
 ```bash
 binwalk image.jpg
 ```
-shows that there are files hidden inside the image, so extract them using
+shows that there are files hidden inside the image, and extracting them using
 ```bash
 binwalk -e image.jpg
 ```
-to acquire a zip file that requires a password to extract. The password can be found going back to the image and running the command
+acquires a zip file that requires a password to extract. The password can be found going back to the image and running the command
 ```bash
 strings image.jpg | grep -A 1 "pass"
 ```
