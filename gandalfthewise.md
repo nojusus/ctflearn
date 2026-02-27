@@ -2,7 +2,7 @@ Running the command
 ```bash
 file Gandalf.jpg
 ```
-3 comments are revealed that each contain a base64 encoded string. The first one is decodable with
+reveals 3 comments that each contain a base64 encoded string. The first one is decodable with
 ```bash
 echo "Q1RGbGVhcm57eG9yX2lzX3lvdXJfZnJpZW5kfQo=" | base64 -d
 ```
