@@ -6,7 +6,7 @@ shows that there are hidden files that can be extracted using
 ```bash
 binwalk -e SpaceStation.jpg
 ```
-The extracted "readme" file provides complete instructions to obtain the flag. The flag is inside the "flag.enc" file which requires the initialization vector and a key. Following the instructions, the vector can be obtained by running
+The extracted "readme" file provides complete instructions to obtaining the flag. The flag is inside the "flag.enc" file which requires the initialization vector and a key. Following the instructions, the vector can be obtained by running
 ```bash
 objdump -d -j .data Bangalore
 ```
